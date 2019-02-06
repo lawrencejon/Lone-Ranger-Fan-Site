@@ -1,0 +1,56 @@
+nav {
+	text-align: center;
+	width: 100%;
+}
+nav a {
+	color: #000080;
+	margin: 30px;
+}
+nav a:hover {
+	background-color: #989898;
+	color: #000080;
+}
+.active {
+	background-color: #000080;
+	color: white;
+}
+body {
+	font-family: 'Playfair Display',Times New Roman;
+	background-color: white;
+	color: #000080;
+	border: 9px solid #000080;
+	font-size: 20px;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: #000080;
+	color: white;
+	text-align: center;
+}
+p {
+	padding: 10px;
+}
+ul {
+    text-align: center;
+}
+li {
+	display: inline;
+}
+iframe {
+	width: 30%;
+	height: auto;
+	margin: 0.3%;
+}
+h3 {
+	width: 20%;
+	text-align: center;
+	font-weight: bolder;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+}
