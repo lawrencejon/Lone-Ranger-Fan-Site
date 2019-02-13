@@ -1,24 +1,27 @@
+:root {
+	--main-color: navy;
+}
 nav {
 	text-align: center;
 	width: 100%;
 }
 nav a {
-	color: #000080;
+	color: var(--main-color);
 	margin: 30px;
 }
 nav a:hover {
 	background-color: #989898;
-	color: #000080;
+	color: var(--main-color);
 }
 .active {
-	background-color: #000080;
+	background-color: var(--main-color);
 	color: white;
 }
 body {
 	font-family: 'Playfair Display',Times New Roman;
 	background-color: white;
-	color: #000080;
-	border: 9px solid #000080;
+	color: var(--main-color);
+	border: 9px solid var(--main-color);
 	font-size: 20px;
 }
 footer {
@@ -27,7 +30,7 @@ footer {
 	left: 0;
 	right: 0;
 	width: 100%;
-	background-color: #000080;
+	background-color: var(--main-color);
 	color: white;
 	text-align: center;
 }
