@@ -1,5 +1,5 @@
 :root {
-	--main-color: navy;
+	--main-color: navy, navy;
 }
 nav {
 	text-align: center;
